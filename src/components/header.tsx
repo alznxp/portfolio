@@ -6,7 +6,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 
-const Header: React.FC = () => {
+const Header = () => {
   const pathname = usePathname();
 
   const navLinks = [

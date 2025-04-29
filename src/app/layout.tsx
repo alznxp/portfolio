@@ -5,6 +5,7 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import AnimatedLayout from "@/components/animated-layout";
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({
@@ -32,6 +33,7 @@ export default function RootLayout({
           <AnimatedLayout>
             <Header />
             {children}
+            <Footer/>
           </AnimatedLayout>
         </ThemeProvider>
       </body>

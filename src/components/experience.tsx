@@ -116,7 +116,7 @@ const Experience = () => {
                     }`}
                     onClick={(e) => e.stopPropagation()}
                   >
-                    <div className="px-5 py-4">
+                    <div className="sm:ml-6 ml-4 p-1 px-5 py-4">
                       <p
                         dangerouslySetInnerHTML={{ __html: item.description }}
                       ></p>
