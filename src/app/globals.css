@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+:root {
+  --background: #1d1d1d;
+  --foreground: #1d1d1d;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #141414;
+    --foreground: #1d1d1d;
+  }
+}
+
+::selection {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  font-weight: 600;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+.JPMorgan-highlight {
+  background: linear-gradient(rgba(150, 90, 50, 0.55), rgba(150, 90, 50, 0.55));
+  background-size: 100% 8px;
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  transition: background-size 0.2s, background-postion 0.2s ease-in-out;
+}
+
+.JPMorgan-highlight:hover {
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-size 0.2s, background-postion 0.2s ease-in-out;
+}
+
+.UH-highlight {
+  background: linear-gradient(rgba(255, 59, 59, 0.35), rgba(255, 59, 59, 0.35)); 
+  background-size: 100% 8px;
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  transition: background-size 0.2s, background-position 0.2s ease-in-out;
+}
+
+.UH-highlight:hover {
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-size 0.2s, background-position 0.2s ease-in-out;
+}
+
+.UT-highlight {
+  background: linear-gradient(rgba(255, 115, 0, 0.4), rgba(255, 115, 0, 0.4)); 
+  background-size: 100% 8px;
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  transition: background-size 0.2s, background-position 0.2s ease-in-out;
+}
+
+.UT-highlight:hover {
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-size 0.2s, background-position 0.2s ease-in-out;
+}
+
+.IBM-highlight {
+  background: linear-gradient(rgba(80, 140, 250, 0.4),rgba(80, 140, 250, 0.4)); 
+  background-size: 100% 8px;
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  transition: background-size 0.2s, background-position 0.2s ease-in-out;
+}
+
+.IBM-highlight:hover {
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-size 0.2s, background-position 0.2s ease-in-out;
+}
+
+.NASA-highlight {
+  background: linear-gradient(rgba(40, 90, 200, 0.4),rgba(40, 90, 200, 0.4)); 
+  background-size: 100% 8px;
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  transition: background-size 0.2s, background-position 0.2s ease-in-out;
+}
+
+.NASA-highlight:hover {
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-size 0.2s, background-position 0.2s ease-in-out;
+}
+
+.PROS-highlight {
+  background: linear-gradient(rgba(100, 200, 255, 0.6), rgba(100, 200, 255, 0.6)); 
+  background-size: 100% 8px;
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  transition: background-size 0.2s, background-position 0.2s ease-in-out;
+}
+
+.PROS-highlight:hover {
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-size 0.2s, background-position 0.2s ease-in-out;
+}
+
+.item__content {
+  transform: translate(-5%, -5%);
+  transition: transform 0.2s;
+}
+
+.item__content:hover {
+  transform: translate(0, 0);
+}
+
+.outer-div-arrow:hover .inner-div-arrow {
+  transform: translateX(
+    10px
+  );
+}
+
+.inner-div-arrow {
+  transition: transform 0.3s ease-in-out;
+}
+
+.outer-div-blog:hover .inner-div-blog {
+  text-decoration: wavy underline;
+  text-underline-position: under;
+  text-underline-offset: 0.1rem;
+}
+
+.inner-div-blog {
+  text-decoration: none;
+  transition: text-decoration 3s ease-in-out; 
+}
+
+/* linear-gradient(rgba(152, 255, 179, 0.5), rgba(38, 110, 57, 0.5)); */
