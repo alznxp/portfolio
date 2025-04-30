@@ -45,7 +45,7 @@ export default function Home() {
       </motion.h1>
 
       <motion.p variants={itemVariants} className="mt-2">
-        Hey there! I'm Alizain, a Site Reliability-Software Engineer at{" "}
+        Hey there! I&apos;m Alizain, a Site Reliability-Software Engineer at{" "}
         <Link
           href="https://jpmorganchase.com"
           target="_blank"
@@ -53,12 +53,12 @@ export default function Home() {
         >
           <span className="JPMorgan-highlight">JPMorganChase</span>
         </Link>
-        , based in Houston, TX. I hold dual bachelor's degrees in Computer
+        , based in Houston, TX. I hold dual bachelor&apos;s degrees in Computer
         Science and Mathematics from the{" "}
         <Link href="https://uh.edu" target="_blank" rel="noopener noreferrer">
           <span className="UH-highlight">University of Houston</span>
         </Link>
-        , Class of 2024, and I'm currently pursuing a Master's in Computer
+        , Class of 2024, and I&apos;m currently pursuing a Master&apos;s in Computer
         Science with a focus on Artificial Intelligence at the{" "}
         <Link
           href="https://utexas.edu"
@@ -71,7 +71,7 @@ export default function Home() {
       </motion.p>
 
       <motion.p variants={itemVariants} className="mt-1">
-        I've been fortunate to work on software engineering and product
+        I&apos;ve been fortunate to work on software engineering and product
         development initiatives at{" "}
         <Link
           href="https://jpmorganchase.com"
@@ -98,9 +98,9 @@ export default function Home() {
       </motion.p>
 
       <motion.p variants={itemVariants} className="mt-1">
-        I'm passionate about software engineering, machine learning, and
+        I&apos;m passionate about software engineering, machine learning, and
         artificial intelligence, with strong interests in entrepreneurship and
-        finance. Outside of work, you’ll find me exploring new tech, gaming,
+        finance. Outside of work, you&apos;ll find me exploring new tech, gaming,
         watching soccer, or catching up on Netflix.
       </motion.p>
 

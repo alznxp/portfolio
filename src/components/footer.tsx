@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import moment from "moment-timezone";
+import Image from "next/image";
 
 const Footer = () => {
   const [time, setTime] = useState<string>("");
@@ -13,26 +14,31 @@ const Footer = () => {
       setTime(timeString);
     };
 
-    // Initial update
     updateTime();
 
     // Update every second (1000 ms)
     const interval = setInterval(updateTime, 1000);
 
-    // Cleanup on component unmount
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <footer className="w-full bg-transparent select-none p-4 flex justify-between items-center text-sm text-neutral-200">
-      <div className="text-xs flex items-center mb-2 md:mb-0">
-        <span>MMXXV &copy; Alizain &bull; Made in Texas </span>
-        <img src="texas.svg" alt="Texas" className="ml-1 h-4 w-auto" />
-      </div>
-      <div className="text-xs">
-        <span>{time}</span>
-      </div>
-    </footer>
+    <footer className="w-full bg-transparent select-none p-4 flex flex-col md:flex-row justify-between items-center text-sm text-[#a3a3a3]">
+  <div className="text-xs flex items-center justify-center mb-1 sm:mb-0">
+    <span>MMXXV &copy; Alizain &bull; Made in Texas </span>
+    <Image 
+      src="texas.svg" 
+      width="20"
+      height="20"
+      alt="Texas" 
+      className="ml-1 h-4 w-auto" 
+    />
+  </div>
+  <div className="text-xs flex items-center justify-center">
+    <span>{time}</span>
+  </div>
+</footer>
+
   );
 };
 
