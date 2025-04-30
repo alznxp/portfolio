@@ -11,9 +11,9 @@ const Experience = () => {
     controls.start({ y: 0, opacity: 1, transition: { duration: 0.65 } });
   }, [controls]);
 
-  const [expandedIndex, setExpandedIndex] = useState(null);
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
 
-  const handleToggle = (index: any) => {
+  const handleToggle = (index: number) => {
     setExpandedIndex(expandedIndex === index ? null : index);
   };
 
