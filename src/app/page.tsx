@@ -29,7 +29,7 @@ export default function Home() {
       <motion.div variants={itemVariants}>
         <Image
           className="rounded-2xl select-none"
-          src="/alizain.png"
+          src="/Alizain.png"
           alt="Alizain Banner"
           width={1500}
           height={50}
