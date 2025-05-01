@@ -1,6 +1,6 @@
 ### Alizain's Personal Portfolio
 
-This repository hosts code for the official website for Alizain's portfolio. This portfolio showcases my skills, projects, professional experiences, and blog. It is built using modern web technologies and serves as a personal space to highlight my work.
+This repository hosts code for the official website for Alizain's portfolio. This portfolio showcases my skills, projects, professional experiences, and blog. It is built using modern web technologies highlighted below and serves as a personal space to highlight my work.
 
 #### Technologies Used
 
