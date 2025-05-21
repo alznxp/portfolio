@@ -53,13 +53,14 @@ export default function Home() {
         >
           <span className="JPMorgan-highlight">JPMorganChase</span>
         </Link>
-        , based in Houston, TX. I hold dual bachelor&apos;s degrees in Computer
+        , based in Houston, TX. I hold dual Bachelor&apos;s degrees in Computer
         Science and Mathematics from the{" "}
         <Link href="https://uh.edu" target="_blank" rel="noopener noreferrer">
           <span className="UH-highlight">University of Houston</span>
         </Link>
-        , Class of 2024, and I&apos;m currently pursuing a Master&apos;s in Computer
-        Science with a focus on Artificial Intelligence at the{" "}
+        , Class of 2024, and I&apos;m currently pursuing a Master&apos;s in
+        Computer Science with a focus in Systems and Artificial Intelligence at
+        the{" "}
         <Link
           href="https://utexas.edu"
           target="_blank"
@@ -100,8 +101,8 @@ export default function Home() {
       <motion.p variants={itemVariants} className="mt-1">
         I&apos;m passionate about software engineering, machine learning, and
         artificial intelligence, with strong interests in entrepreneurship and
-        finance. Outside of work, you&apos;ll find me exploring new tech, gaming,
-        watching soccer, or catching up on Netflix.
+        finance. Outside of work, you&apos;ll find me exploring new tech,
+        gaming, watching soccer, or catching up on Netflix.
       </motion.p>
 
       <motion.h1
