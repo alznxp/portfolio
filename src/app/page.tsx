@@ -102,7 +102,7 @@ export default function Home() {
         I&apos;m passionate about software engineering, machine learning, and
         artificial intelligence, with strong interests in entrepreneurship and
         finance. Outside of work, you&apos;ll find me exploring new tech,
-        gaming, watching soccer, or catching up on Netflix.
+        playing video games, watching soccer, or catching up on Netflix.
       </motion.p>
 
       <motion.h1
