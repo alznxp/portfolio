@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+// import Image from "next/image";
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { FaLinkedin, FaGithub, FaStackOverflow } from "react-icons/fa";
