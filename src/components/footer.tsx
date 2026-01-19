@@ -25,7 +25,7 @@ const Footer = () => {
   return (
     <footer className="w-full bg-transparent select-none p-4 flex flex-col md:flex-row justify-between items-center text-sm text-[#a3a3a3]">
   <div className="text-xs flex items-center justify-center mb-1 sm:mb-0">
-    <span>MMXXV &copy; Alizain &bull; Made in Texas </span>
+    <span>MMXXVI &copy; Alizain &bull; Made in Texas </span>
     <Image 
       src="texas.svg" 
       width="20"
